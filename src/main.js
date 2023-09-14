@@ -10,6 +10,8 @@ import * as components from 'vuetify/components'
 import * as directives from 'vuetify/directives'
 // mdi-icon
 import '@mdi/font/css/materialdesignicons.css' // Ensure you are using css-loader
+//flag-icons
+import "/node_modules/flag-icons/css/flag-icons.min.css";
 
 const vuetify = createVuetify({
     components,
