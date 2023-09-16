@@ -173,7 +173,7 @@ export default {
         countryColor: "#01079A",
         isVisited: false,
         backgroundGradient: "to bottom, rgba(1,7,154,.90), rgba(1,7,154,.90)",
-        countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipMiwBqc1TtYoxs8BbkFy-ApqzvFA5bIzUHvgzeD=w408-h255-k-no",
+        countryPhoto: "https://media.cntraveller.com/photos/611be9e3d5b6f5a4a3def392/16:9/w_2560%2Cc_limit/Mountain-view-over-city-Edinburgh-scotland-conde-nast-traveller-28july17-iStock.jpg",
         countryFlagPhoto: "https://getwallpapers.com/wallpaper/full/3/0/7/1042837-popular-united-kingdom-flag-wallpaper-1920x1080.jpg"
       },
       {
@@ -186,7 +186,7 @@ export default {
         countryColor: "#01079A",
         isVisited: false,
         backgroundGradient: "to bottom, rgba(1,7,154,.90), rgba(1,7,154,.90)",
-        countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipNcldReFhF_o_7SOSKE7v3P5XapCyYWZ4Oq0JWj=w408-h306-k-no",
+        countryPhoto: "https://i2-prod.mirror.co.uk/incoming/article28701443.ece/ALTERNATES/s1200b/0_Tower-Bridge-in-London-England-United-Kingdomjp.jpg",
         countryFlagPhoto: "https://getwallpapers.com/wallpaper/full/3/0/7/1042837-popular-united-kingdom-flag-wallpaper-1920x1080.jpg"
       },
       {
@@ -198,7 +198,7 @@ export default {
         countryFlag: "fr",
         countryColor: "#0236BC",
         isVisited: false,
-        backgroundGradient: "to bottom, rgba(2,54,188,.90), rgba(2,54,188,.90)",
+        backgroundGradient: "154deg, rgba(2, 54, 188, 0.90) 0%, rgba(237, 41, 57, 0.90) 100%",
         countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipOTdWRhZoy5lJGdxy_ir-mQsy6N3O6CYLaOj0vC=w408-h544-k-no",
         countryFlagPhoto: "https://media.istockphoto.com/id/510973709/photo/close-up-of-the-flag-of-france.webp?b=1&s=170667a&w=0&k=20&c=_DE_rAM3tKwHPoKI9PQFIkoV8vkuVR6SQYvucZwZa94="
       },
@@ -211,7 +211,7 @@ export default {
         countryFlag: "fr",
         countryColor: "#0236BC",
         isVisited: false,
-        backgroundGradient: "to bottom, rgba(2,54,188,.90), rgba(2,54,188,.90)",
+        backgroundGradient: "154deg, rgba(2, 54, 188, 0.90) 0%, rgba(237, 41, 57, 0.90) 100%",
         countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipMY8OnFsq4dTy2MwpTlt2kDwDTwS55-YhJugvk=w408-h462-k-no",
         countryFlagPhoto: "https://media.istockphoto.com/id/510973709/photo/close-up-of-the-flag-of-france.webp?b=1&s=170667a&w=0&k=20&c=_DE_rAM3tKwHPoKI9PQFIkoV8vkuVR6SQYvucZwZa94="
       },
@@ -225,7 +225,7 @@ export default {
         countryColor: "#E1A200",
         isVisited: false,
         backgroundGradient: "to bottom, rgba(225,162,0,.90), rgba(225,162,0,.90)",
-        countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipMgtANRnQXoQ-OeeRBWN3P5W-_OgF_PPrcmOn8M=w408-h306-k-no",
+        countryPhoto: "https://media.cntraveller.com/photos/611be916628f4910ed101d18/16:9/w_2992,h_1683,c_limit/parque-del-buen-retiro-gettyimages-873841648.jpg",
         countryFlagPhoto: "https://png.pngtree.com/background/20210715/original/pngtree-wavy-spain-flag-background-picture-image_1316536.jpg"
       },
       {
@@ -238,7 +238,7 @@ export default {
         countryColor: "#E1A200",
         isVisited: false,
         backgroundGradient: "to bottom, rgba(225,162,0,.90), rgba(225,162,0,.90)",
-        countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipNBcaQzfx7WOSU8ykPKS_kdt8QbG3T6BGk_RkAo=w408-h306-k-no",
+        countryPhoto: "https://hips.hearstapps.com/hmg-prod/images/the-city-of-arts-and-sciences-valencia-spai-1651683436.jpg",
         countryFlagPhoto: "https://png.pngtree.com/background/20210715/original/pngtree-wavy-spain-flag-background-picture-image_1316536.jpg"
       },
       {
@@ -263,8 +263,8 @@ export default {
         countryFlag: "lu",
         countryColor: "#00A5E5",
         isVisited: false,
-        backgroundGradient: "to bottom, rgba(0,165,229,.90), rgba(0,165,229,.90)",
-        countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipMUUQ1r0ilj10b6z8HKUJjgfYK8mCxq7h1LP-2z=w408-h306-k-no",
+        backgroundGradient: "154deg, rgba(237, 26, 59, 0.90) 0%, rgba(237, 26, 59, 0.90) 20.83%, rgba(0, 166, 231, 0.90) 80.73%, rgba(0, 166, 231, 0.90) 100%",
+        countryPhoto: "https://static.wixstatic.com/media/167538_977edcbf76574f319032610b56191d89~mv2.png/v1/fill/w_940,h_788,al_c,q_90/167538_977edcbf76574f319032610b56191d89~mv2.png",
         countryFlagPhoto: "https://cdn11.bigcommerce.com/s-2lbnjvmw4d/images/stencil/1280x1280/products/3013/5531/Luxemburg__80447.1647332205.jpg?c=2"
       },
       {
@@ -277,7 +277,7 @@ export default {
         countryColor: "#E31D1D",
         isVisited: false,
         backgroundGradient: "to bottom, rgba(227,29,29,.90), rgba(227,29,29,.90)",
-        countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipP28dyerkgsbs2MG2qQa7pyy0mcAdrBuA9ENjhz=w452-h240-k-no",
+        countryPhoto: "https://www.ab-in-den-urlaub.de/magazin/wp-content/uploads/2019/09/1568894625_Stadtblick-Fraum%C3%BCnster.jpg",
         countryFlagPhoto: "https://rare-gallery.com/uploads/posts/728640-Switzerland-Flag-Cross.jpg"
       },
       {
@@ -290,7 +290,7 @@ export default {
         countryColor: "#E31D1D",
         isVisited: false,
         backgroundGradient: "to bottom, rgba(227,29,29,.90), rgba(227,29,29,.90)",
-        countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipPQcG_frelrQwlbFIP8GVKxTmMjfLFNrsPBKAYU=w426-h240-k-no",
+        countryPhoto: "https://www.railbookers.ca/sites/railbookers/files/styles/hero/public/media/images/shutterstock_1438073690.jpg?h=82f92a78&itok=4jjanHvF",
         countryFlagPhoto: "https://rare-gallery.com/uploads/posts/728640-Switzerland-Flag-Cross.jpg"
       },
       {
@@ -303,7 +303,7 @@ export default {
         countryColor: "",
         isVisited: false,
         backgroundGradient: "to bottom, rgba(0,43,127,.90), rgba(0,43,127,.90)",
-        countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipNdasGZANypq_gWlfZ0VDkXEiwmUUbDQCq3g_7d=w426-h240-k-no",
+        countryPhoto: "https://www.bodensee.eu/regionen-staedte/liechtenstein/2022/image-thumb__9709__lightbox/252284_vaduzerbilder_2019--113-_web.jpeg",
         countryFlagPhoto: "https://www.wagrati.eu/media/images/flagge-liechtenstein-1400x840.jpg"
       },
       {
@@ -367,7 +367,7 @@ export default {
         countryFlag: "de",
         countryColor: "#270000",
         isVisited: false,
-        backgroundGradient: "to bottom, rgba(39,0,0,.90), rgba(39,0,0,.90)",
+        backgroundGradient: "154deg, rgba(39, 0, 0, 0.90) 25%, rgba(221, 0, 0, 0.90) 62.5%, rgba(255, 206, 0, 0.90) 100%",
         countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipO-zwhm1jx4VBJMKCgtBvngNSAGC9JKhSjwQkV8=w408-h321-k-no",
         countryFlagPhoto: "https://t3.ftcdn.net/jpg/01/11/68/26/360_F_111682656_g63NR8Z16g8H8boPR3LK6J4VEbSv9oXg.jpg"
       },
@@ -380,7 +380,7 @@ export default {
         countryFlag: "de",
         countryColor: "#270000",
         isVisited: false,
-        backgroundGradient: "to bottom, rgba(39,0,0,.90), rgba(39,0,0,.90)",
+        backgroundGradient: "154deg, rgba(39, 0, 0, 0.90) 25%, rgba(221, 0, 0, 0.90) 62.5%, rgba(255, 206, 0, 0.90) 100%",
         countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipOYVBGDvrCQ5SLWQSMb8YaJnJcAlj6ZZc0bvkfN=w408-h272-k-no",
         countryFlagPhoto: "https://t3.ftcdn.net/jpg/01/11/68/26/360_F_111682656_g63NR8Z16g8H8boPR3LK6J4VEbSv9oXg.jpg"
       },
@@ -393,7 +393,7 @@ export default {
         countryFlag: "de",
         countryColor: "#270000",
         isVisited: false,
-        backgroundGradient: "to bottom, rgba(59,20,20,.90), rgba(59,20,20,.90)",
+        backgroundGradient: "154deg, rgba(39, 0, 0, 0.90) 25%, rgba(221, 0, 0, 0.90) 62.5%, rgba(255, 206, 0, 0.90) 100%",
         countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipMsEmR6jfTcoAqgqo5fZqX0s1sJgmXFXkr9Vocw=w408-h272-k-no",
         countryFlagPhoto: "https://t3.ftcdn.net/jpg/01/11/68/26/360_F_111682656_g63NR8Z16g8H8boPR3LK6J4VEbSv9oXg.jpg"
       },
@@ -420,7 +420,7 @@ export default {
         countryColor: "",
         isVisited: false,
         backgroundGradient: "to bottom, rgba(200,16,46,.90), rgba(200,16,46,.90)",
-        countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipOIkP19Tl8_l8QMQ3jYjjsRcmVmddNb0e90ncdO=w408-h306-k-no",
+        countryPhoto: "https://bilder.apollo.no/kobenhavn-1592404966-504984-ImageGalleryX2.jpg",
         countryFlagPhoto: "https://a-z-animals.com/media/2022/11/flag-of-denmark-blowing-in-the-wind.jpg_s1024x1024wisk20c0DPsTA3CmJAKJpP_Nf6O87msLuW1drgrAW5cWSvDQJ8-1024x614.jpg"
       },
       {
@@ -446,7 +446,7 @@ export default {
         countryColor: "#026EBC",
         isVisited: false,
         backgroundGradient: "to bottom, rgba(2,110,188,.90), rgba(2,110,188,.90)",
-        countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipNFOKh2KZAdSsTVxVtJKcMDLU9Bcu19gL5LdOI=w408-h272-k-no",
+        countryPhoto: "https://thekit.ca/wp-content/uploads/2022/09/2022-greece-thekit.ca-fb.jpg",
         countryFlagPhoto: "https://img.freepik.com/premium-photo/blue-white-national-flag-greece_526955-261.jpg"
       },
       {
@@ -459,7 +459,7 @@ export default {
         countryColor: "#9A0101",
         isVisited: false,
         backgroundGradient: "to bottom, rgba(154,1,1,.90), rgba(154,1,1,.90)",
-        countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipMeIQbzVfRfX2MceCED7L2NW9yHzXZQ-z_rPLGb=w408-h392-k-no",
+        countryPhoto: "https://www.tooistanbul.com/wp-content/uploads/2020/06/hagia-sophia.jpg",
         countryFlagPhoto: "https://archive.org/download/TurkeyFlag/TurkeyFlag.jpg"
       },
       {
@@ -471,8 +471,8 @@ export default {
         countryFlag: "jp",
         countryColor: "#B59898",
         isVisited: false,
-        backgroundGradient: "to bottom, rgba(181,152,152,.90), rgba(181,152,152,.90)",
-        countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipOfDOxIZwD6vTH5Mx2Bi6aBiGi_KtX-ft2k5zZL=w408-h679-k-no",
+        backgroundGradient: "154deg, rgba(188, 0, 45, 0.90) 0%, rgba(181, 152, 152, 0.90) 100%",
+        countryPhoto: "https://skyticket.com/guide/wp-content/uploads/2019/07/shutterstock_790426882.jpg",
         countryFlagPhoto: "https://st.depositphotos.com/1588500/2561/i/450/depositphotos_25615859-stock-photo-flag-of-japan.jpg"
       },
       {
@@ -485,7 +485,7 @@ export default {
         countryColor: "",
         isVisited: false,
         backgroundGradient: "to bottom, rgba(223,0,0,.90), rgba(223,0,0,.90)",
-        countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipNOe1SSy37mfb8qiDLaJTOcn47XhrZZlNRFZ4Q6=w408-h272-k-no",
+        countryPhoto: "https://img.delicious.com.au/Ci1eTz5D/w759-h506-cfill/del/2022/06/singapore-food-lovers-guide-best-places-to-stay-eat-and-drink-169950-2.jpg",
         countryFlagPhoto: "https://www.motosha.com/files/preview/1280x711/2162-singapore-flag.jpg"
       },
       {
@@ -497,8 +497,8 @@ export default {
         countryFlag: "kr",
         countryColor: "#737373",
         isVisited: false,
-        backgroundGradient: "to bottom, rgba(181,152,152,.90), rgba(181,152,152,.90)",
-        countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipPvc9Qm-q3zaHrxROf0P3kYD9cbOWhD5puciWie=w408-h508-k-no",
+        backgroundGradient: "154deg, rgba(54, 65, 136, 0.90) 40%, rgba(208, 208, 208, 0.90) 100%",
+        countryPhoto: "https://www.lw.com/dfsmedia/1281ba27c7364299935b6ca4e198a70d/67594-50128/seoul-office-detail",
         countryFlagPhoto: "https://c4.wallpaperflare.com/wallpaper/843/422/452/south-korea-flag-asian-korean-wallpaper-preview.jpg"
       },
       {
@@ -510,8 +510,8 @@ export default {
         countryFlag: "kr",
         countryColor: "#737373",
         isVisited: false,
-        backgroundGradient: "to bottom, rgba(181,152,152,.90), rgba(181,152,152,.90)",
-        countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipMSQfxOpl2UBicUmMPyFTEzwu0Kdjs5bw57Yy9_=w491-h240-k-no",
+        backgroundGradient: "154deg, rgba(54, 65, 136, 0.90) 40%, rgba(208, 208, 208, 0.90) 100%",
+        countryPhoto: "https://www.wapititravel.com/blog/wp-content/uploads/2022/12/jeongbang_waterfall_jeju_south_korea.jpeg",
         countryFlagPhoto: "https://c4.wallpaperflare.com/wallpaper/843/422/452/south-korea-flag-asian-korean-wallpaper-preview.jpg"
       },
       {
@@ -524,7 +524,7 @@ export default {
         countryColor: "#FF3535",
         isVisited: false,
         backgroundGradient: "to bottom, rgba(255,53,53,.90), rgba(255,53,53,.90)",
-        countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipPseX_3OQS-rr-VVOtYOkiN57tBwewkcZExZKZt=w654-h240-k-no",
+        countryPhoto: "https://ticketbox.my.id/wp-content/uploads/2023/08/Hong-Kong-Travel-Destinations.jpg",
         countryFlagPhoto: "https://media.istockphoto.com/id/916628954/vector/hong-kong-flag-background.jpg?s=612x612&w=0&k=20&c=q4xn1zTBvmZHoufVbqiJtRIyypKAKra8RT9ACASQrGg="
       },
       {
@@ -537,7 +537,7 @@ export default {
         countryColor: "",
         isVisited: false,
         backgroundGradient: "to bottom, rgba(0,120,94,.90), rgba(0,120,94,.90)",
-        countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipM-06Rc1yusB5CojlzhDz7jnxV5ARHq-PRgQX75=w408-h269-k-no",
+        countryPhoto: "https://news.cgtn.com/news/3567444e7951444f3149544d32456a4e35557a4e31457a6333566d54/img/8fa61fa0970b49e680b8753f246e87e8/8fa61fa0970b49e680b8753f246e87e8.jpg",
         countryFlagPhoto: "https://media.istockphoto.com/id/1421347731/vector/waving-macau-flag-in-beautiful-3d-illustration.jpg?s=612x612&w=0&k=20&c=GPAqskNXPC5qg1LqEGt3aXLMzWByVTcvOPc1NPZMJmA="
       },
       {
@@ -563,7 +563,7 @@ export default {
         countryColor: "",
         isVisited: false,
         backgroundGradient: "to bottom, rgba(235,184,0,.90), rgba(235,184,0,.90)",
-        countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipPDSQHvG3jmv9YIOhzzdXGdgC-aXZqC_gtBUckP=w408-h272-k-no",
+        countryPhoto: "https://a.cdn-hotels.com/gdcs/production150/d1027/53d84813-85cf-49fb-bc55-4d708c32933e.jpg?impolicy=fcrop&w=800&h=533&q=medium",
         countryFlagPhoto: "https://st2.depositphotos.com/3905143/5949/i/450/depositphotos_59497371-stock-photo-malaysia-waving-flag.jpg"
       },
       {
@@ -576,7 +576,7 @@ export default {
         countryColor: "",
         isVisited: false,
         backgroundGradient: "to bottom, rgba(235,184,0,.90), rgba(235,184,0,.90)",
-        countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipNXfaW4fFD_pLoEZAffbUUtXDAP1XkUSAgXoA20=w506-h240-k-no",
+        countryPhoto: "https://www.tripsavvy.com/thmb/DnTMIADvI4AZwsnKZhaAyuo9wok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/penang-malaysia-b40c38589e794a61ba904d64c0a02c43.jpg",
         countryFlagPhoto: "https://st2.depositphotos.com/3905143/5949/i/450/depositphotos_59497371-stock-photo-malaysia-waving-flag.jpg"
       },
       {
@@ -584,12 +584,12 @@ export default {
         countryName: "Philippine",
         countryOriginalName: "Pilipinas",
         cityName: "Manila",
-        cityOriginalName: "Maynila",
+        cityOriginalName: "Manila",
         countryFlag: "ph",
         countryColor: "",
         isVisited: false,
         backgroundGradient: "to bottom, rgba(0,56,168,.90), rgba(0,56,168,.90)",
-        countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipPzlWJaKAuF72aAHKKkZTHF66O7BbuFA02h2AFQ=w408-h544-k-no",
+        countryPhoto: "https://content.r9cdn.net/rimg/dimg/3f/25/1f5a7b8e-city-29645-176cf1dd5ad.jpg?crop=true&width=1020&height=498",
         countryFlagPhoto: "https://img.freepik.com/free-photo/view-philippine-flag_23-2150319712.jpg"
       },
       {
@@ -602,7 +602,7 @@ export default {
         countryColor: "#D7B400",
         isVisited: false,
         backgroundGradient: "to bottom, rgba(215,177,2,.90), rgba(215,177,12,.90)",
-        countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipOH9BKmdNaIUGedt0r3ivNT-wkGk1nRikHsQqg=w408-h243-k-no",
+        countryPhoto: "https://history.icaci.org/wp-content/uploads/2023/04/Africamuseum-outside.jpeg",
         countryFlagPhoto: "https://i.pinimg.com/736x/0e/9d/91/0e9d9121df8671469a28322c330d0654.jpg"
       },
       {
@@ -628,7 +628,7 @@ export default {
         countryColor: "",
         isVisited: false,
         backgroundGradient: "to bottom, rgba(220,20,60,.90), rgba(220,20,60,.90)",
-        countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipNMm-3_ieTiEzzIy4IC1Eu9ljXY-Ujl-8SHkhWb=w408-h275-k-no",
+        countryPhoto: "https://a.cdn-hotels.com/gdcs/production174/d1938/a563a469-4020-4110-97f6-c5c5618c2321.jpg?impolicy=fcrop&w=800&h=533&q=medium",
         countryFlagPhoto: "https://cdn11.bigcommerce.com/s-2lbnjvmw4d/images/stencil/1280x1280/products/4403/5320/polandsleeve__83449.1619532074.jpg?c=2"
       },
       {
@@ -679,7 +679,7 @@ export default {
         countryFlag: "fr",
         countryColor: "#0236BC",
         isVisited: false,
-        backgroundGradient: "to bottom, rgba(2,54,188,.90), rgba(2,54,188,.90)",
+        backgroundGradient: "154deg, rgba(2, 54, 188, 0.90) 0%, rgba(237, 41, 57, 0.90) 100%",
         countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipO4lFEW2pnnmB7MQsAzsq8x6qVSwvNnBhbFagDU=w408-h544-k-no",
         countryFlagPhoto: "https://media.istockphoto.com/id/510973709/photo/close-up-of-the-flag-of-france.webp?b=1&s=170667a&w=0&k=20&c=_DE_rAM3tKwHPoKI9PQFIkoV8vkuVR6SQYvucZwZa94="
       },
@@ -692,7 +692,7 @@ export default {
         countryFlag: "is",
         countryColor: "#234090",
         isVisited: false,
-        backgroundGradient: "to bottom, rgba(35,64,144,.90), rgba(35,64,144,.90)",
+        backgroundGradient: "154deg, rgba(35, 64, 144, 0.90) 0%, rgba(35, 64, 144, 0.90) 35.94%, rgba(252, 94, 92, 0.90) 100%",
         countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipM_mZGBAoWqsbGJ0R9p5GQNGqYXuauzP9vHjAdO=w408-h272-k-no",
         countryFlagPhoto: "https://www.iamreykjavik.com/wp-content/uploads/2018/08/iceland-flag-meaning-history-symbolism-e1535617406754-1280x720.jpg"
       },
