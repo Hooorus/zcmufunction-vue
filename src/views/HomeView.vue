@@ -58,13 +58,19 @@
                   <!--side front-->
                   <div class="flip-side flip-side-front">
                     <v-card height="425" max-height="425" max-width="300"
-                            v-bind="props" :elevation="isHovering ? 12 : 4">
+                            v-bind="props" :elevation="isHovering ? 12 : 2">
                       <v-img height="425" max-height="425" :src="card.countryPhoto" cover class="text-white"
                              :gradient="card.backgroundGradient">
-                        <v-card-item>
-                          <v-card-title>{{ card.cityName }}</v-card-title>
-                          <v-card-subtitle>{{ card.countryName }}</v-card-subtitle>
-                          <v-icon :class="`fi fi-`+ card.countryFlag"></v-icon>
+                        <v-card-item class="d-flex justify-center" style="height: 40%">
+                          <h2 class="my-2" style="text-align: center; font-size: 26px">{{ card.cityOriginalName }}</h2>
+                          <h3 class="my-2" style="text-align: center">{{ card.countryOriginalName }}</h3>
+                        </v-card-item>
+                        <v-card-item style="height: 30%"></v-card-item>
+                        <v-card-item style="height: 30%" class="d-flex justify-center">
+                          <v-icon
+                              style="justify-self: center; text-align: center; border-radius: 0.5px; box-shadow: 0px 4px 4px 0px rgba(0, 1, 1, 0.2);"
+                              :class="`fi fi-`+ card.countryFlag" class="my-2 mx-2">
+                          </v-icon>
                         </v-card-item>
                       </v-img>
                     </v-card>
@@ -72,7 +78,7 @@
                   <!--side back-->
                   <div class="flip-side flip-side-back">
                     <v-card height="425" max-height="425" max-width="300"
-                            v-bind="props" :elevation="isHovering ? 12 : 4">
+                            v-bind="props" :elevation="isHovering ? 12 : 2">
                       <!--card head-->
                       <v-img height="75" cover>
                         <!--transparent background flag slot-->
@@ -121,7 +127,9 @@ export default {
       {
         index: 1,
         countryName: "Ireland",
+        countryOriginalName: "Éire",
         cityName: "Dublin",
+        cityOriginalName: "Baile Átha Cliath",
         countryFlag: "ie",
         countryColor: "#019A4A",
         isVisited: false,
@@ -132,7 +140,9 @@ export default {
       {
         index: 2,
         countryName: "Ireland",
+        countryOriginalName: "Éire",
         cityName: "Galway",
+        cityOriginalName: "Gaillimh",
         countryFlag: "ie",
         countryColor: "#019A4A",
         isVisited: false,
@@ -143,7 +153,9 @@ export default {
       {
         index: 3,
         countryName: "Ireland",
-        cityName: "Down Patrick Head",
+        countryOriginalName: "Éire",
+        cityName: "Downpatrick Head",
+        cityOriginalName: "Downpatrick Head",
         countryFlag: "ie",
         countryColor: "#019A4A",
         isVisited: false,
@@ -154,7 +166,9 @@ export default {
       {
         index: 4,
         countryName: "United Kingdom",
+        countryOriginalName: "United Kingdom",
         cityName: "Edinburgh",
+        cityOriginalName: "Edinburgh",
         countryFlag: "gb",
         countryColor: "#01079A",
         isVisited: false,
@@ -165,7 +179,9 @@ export default {
       {
         index: 5,
         countryName: "United Kingdom",
+        countryOriginalName: "United Kingdom",
         cityName: "London",
+        cityOriginalName: "London",
         countryFlag: "gb",
         countryColor: "#01079A",
         isVisited: false,
@@ -176,7 +192,9 @@ export default {
       {
         index: 6,
         countryName: "France",
+        countryOriginalName: "France",
         cityName: "Paris",
+        cityOriginalName: "Paris",
         countryFlag: "fr",
         countryColor: "#0236BC",
         isVisited: false,
@@ -187,7 +205,9 @@ export default {
       {
         index: 7,
         countryName: "France",
+        countryOriginalName: "France",
         cityName: "Nice",
+        cityOriginalName: "Nice",
         countryFlag: "fr",
         countryColor: "#0236BC",
         isVisited: false,
@@ -198,7 +218,9 @@ export default {
       {
         index: 8,
         countryName: "Spain",
+        countryOriginalName: "España",
         cityName: "Madrid",
+        cityOriginalName: "Madrid",
         countryFlag: "es",
         countryColor: "#E1A200",
         isVisited: false,
@@ -209,7 +231,9 @@ export default {
       {
         index: 9,
         countryName: "Spain",
+        countryOriginalName: "España",
         cityName: "Valencia",
+        cityOriginalName: "Valencia",
         countryFlag: "es",
         countryColor: "#E1A200",
         isVisited: false,
@@ -220,7 +244,9 @@ export default {
       {
         index: 10,
         countryName: "Netherlands",
+        countryOriginalName: "Nederland",
         cityName: "Amsterdam",
+        cityOriginalName: "Amsterdam",
         countryFlag: "nl",
         countryColor: "#21468B",
         isVisited: false,
@@ -231,7 +257,9 @@ export default {
       {
         index: 11,
         countryName: "Luxembourg",
+        countryOriginalName: "Luxembourg",
         cityName: "Luxembourg",
+        cityOriginalName: "Luxembourg",
         countryFlag: "lu",
         countryColor: "#00A5E5",
         isVisited: false,
@@ -242,7 +270,9 @@ export default {
       {
         index: 12,
         countryName: "Switzerland",
+        countryOriginalName: "Schweiz",
         cityName: "Zurich",
+        cityOriginalName: "Zürich",
         countryFlag: "ch",
         countryColor: "#E31D1D",
         isVisited: false,
@@ -253,7 +283,9 @@ export default {
       {
         index: 12,
         countryName: "Switzerland",
+        countryOriginalName: "Schweiz",
         cityName: "Bern",
+        cityOriginalName: "Bern",
         countryFlag: "ch",
         countryColor: "#E31D1D",
         isVisited: false,
@@ -264,18 +296,22 @@ export default {
       {
         index: 13,
         countryName: "Liechtenstein",
+        countryOriginalName: "Liechtenstein",
         cityName: "Vaduz",
+        cityOriginalName: "Vaduz",
         countryFlag: "li",
         countryColor: "",
         isVisited: false,
-        backgroundGradient: "to bottom, rgba(255,53,53,.90), rgba(255,53,53,.90)",
+        backgroundGradient: "to bottom, rgba(0,43,127,.90), rgba(0,43,127,.90)",
         countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipNdasGZANypq_gWlfZ0VDkXEiwmUUbDQCq3g_7d=w426-h240-k-no",
         countryFlagPhoto: "https://www.wagrati.eu/media/images/flagge-liechtenstein-1400x840.jpg"
       },
       {
         index: 14,
         countryName: "Italy",
+        countryOriginalName: "Italy",
         cityName: "Milan",
+        cityOriginalName: "Milan",
         countryFlag: "it",
         countryColor: "#038700",
         isVisited: false,
@@ -286,7 +322,9 @@ export default {
       {
         index: 15,
         countryName: "Italy",
+        countryOriginalName: "Italy",
         cityName: "Florence",
+        cityOriginalName: "Florence",
         countryFlag: "it",
         countryColor: "#038700",
         isVisited: false,
@@ -297,7 +335,9 @@ export default {
       {
         index: 15,
         countryName: "Italy",
+        countryOriginalName: "Italy",
         cityName: "Rome",
+        cityOriginalName: "Roma",
         countryFlag: "it",
         countryColor: "#038700",
         isVisited: false,
@@ -308,7 +348,9 @@ export default {
       {
         index: 16,
         countryName: "Austria",
+        countryOriginalName: "Österreich",
         cityName: "Vienna",
+        cityOriginalName: "Wien",
         countryFlag: "at",
         countryColor: "#C8102E",
         isVisited: false,
@@ -319,7 +361,9 @@ export default {
       {
         index: 17,
         countryName: "Germany",
+        countryOriginalName: "Deutschland",
         cityName: "Frankfurt",
+        cityOriginalName: "Frankfurt",
         countryFlag: "de",
         countryColor: "#270000",
         isVisited: false,
@@ -330,7 +374,9 @@ export default {
       {
         index: 18,
         countryName: "Germany",
+        countryOriginalName: "Deutschland",
         cityName: "Munich",
+        cityOriginalName: "München",
         countryFlag: "de",
         countryColor: "#270000",
         isVisited: false,
@@ -341,51 +387,61 @@ export default {
       {
         index: 19,
         countryName: "Germany",
+        countryOriginalName: "Deutschland",
         cityName: "Berlin",
+        cityOriginalName: "Berlin",
         countryFlag: "de",
         countryColor: "#270000",
         isVisited: false,
-        backgroundGradient: "to bottom, rgba(39,0,0,.90), rgba(39,0,0,.90)",
+        backgroundGradient: "to bottom, rgba(59,20,20,.90), rgba(59,20,20,.90)",
         countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipMsEmR6jfTcoAqgqo5fZqX0s1sJgmXFXkr9Vocw=w408-h272-k-no",
         countryFlagPhoto: "https://t3.ftcdn.net/jpg/01/11/68/26/360_F_111682656_g63NR8Z16g8H8boPR3LK6J4VEbSv9oXg.jpg"
       },
       {
         index: 20,
         countryName: "Czechia",
+        countryOriginalName: "Česko",
         cityName: "Prague",
+        cityOriginalName: "Praha",
         countryFlag: "cz",
         countryColor: "",
         isVisited: false,
-        backgroundGradient: "to bottom, rgba(39,0,0,.90), rgba(39,0,0,.90)",
+        backgroundGradient: "to bottom, rgba(17, 69, 126,.90), rgba(17, 69, 126,.90)",
         countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipNBzXLJmNJRs6OpKQpgc2kY7yM_0oyLT2szrgs=w408-h544-k-no",
         countryFlagPhoto: "https://media.istockphoto.com/id/1218009965/photo/flag-of-czech-republic-blowing-in-the-wind.jpg?s=612x612&w=0&k=20&c=IGfLgDCIPk8ZbALgON3uSr6QcYZJ1gzxTA4xSR7XgsE="
       },
       {
         index: 21,
         countryName: "Denmark",
+        countryOriginalName: "Denmark",
         cityName: "Copenhagen",
+        cityOriginalName: "København",
         countryFlag: "dk",
         countryColor: "",
         isVisited: false,
-        backgroundGradient: "to bottom, rgba(255,53,53,.90), rgba(255,53,53,.90)",
+        backgroundGradient: "to bottom, rgba(200,16,46,.90), rgba(200,16,46,.90)",
         countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipOIkP19Tl8_l8QMQ3jYjjsRcmVmddNb0e90ncdO=w408-h306-k-no",
         countryFlagPhoto: "https://a-z-animals.com/media/2022/11/flag-of-denmark-blowing-in-the-wind.jpg_s1024x1024wisk20c0DPsTA3CmJAKJpP_Nf6O87msLuW1drgrAW5cWSvDQJ8-1024x614.jpg"
       },
       {
         index: 21,
         countryName: "Finland",
+        countryOriginalName: "Suomi",
         cityName: "Helsinki",
+        cityOriginalName: "Helsinki",
         countryFlag: "fi",
         countryColor: "",
         isVisited: false,
-        backgroundGradient: "to bottom, rgba(255,53,53,.90), rgba(255,53,53,.90)",
+        backgroundGradient: "to bottom, rgba(0, 47, 108,.90), rgba(0, 47, 108,.90)",
         countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipNOuY0PBLRJoBe5rm5Tzv_zG-SwCxng7QArtdvd=w408-h272-k-no",
         countryFlagPhoto: "https://www.wagrati.eu/media/images/flagge-finnland-1400x855.jpg"
       },
       {
         index: 22,
         countryName: "Greece",
+        countryOriginalName: "Ελλάδα",
         cityName: "Athens",
+        cityOriginalName: "Αθήνα",
         countryFlag: "gr",
         countryColor: "#026EBC",
         isVisited: false,
@@ -396,7 +452,9 @@ export default {
       {
         index: 23,
         countryName: "Turkey",
+        countryOriginalName: "Türkiye",
         cityName: "Istanbul",
+        cityOriginalName: "İstanbul",
         countryFlag: "tr",
         countryColor: "#9A0101",
         isVisited: false,
@@ -407,7 +465,9 @@ export default {
       {
         index: 24,
         countryName: "Japan",
+        countryOriginalName: "日本",
         cityName: "Tokyo",
+        cityOriginalName: "東京",
         countryFlag: "jp",
         countryColor: "#B59898",
         isVisited: false,
@@ -418,40 +478,48 @@ export default {
       {
         index: 25,
         countryName: "Singapore",
+        countryOriginalName: "Singapore",
         cityName: "Singapore",
+        cityOriginalName: "Singapore",
         countryFlag: "sg",
         countryColor: "",
         isVisited: false,
-        backgroundGradient: "to bottom, rgba(255,53,53,.90), rgba(255,53,53,.90)",
+        backgroundGradient: "to bottom, rgba(223,0,0,.90), rgba(223,0,0,.90)",
         countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipNOe1SSy37mfb8qiDLaJTOcn47XhrZZlNRFZ4Q6=w408-h272-k-no",
         countryFlagPhoto: "https://www.motosha.com/files/preview/1280x711/2162-singapore-flag.jpg"
       },
       {
         index: 26,
         countryName: "South Korea",
+        countryOriginalName: "대한민국",
         cityName: "Seoul",
+        cityOriginalName: "서울특별시",
         countryFlag: "kr",
         countryColor: "#737373",
         isVisited: false,
-        backgroundGradient: "to bottom, rgba(115,115,115,.90), rgba(115,115,115,.90)",
+        backgroundGradient: "to bottom, rgba(181,152,152,.90), rgba(181,152,152,.90)",
         countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipPvc9Qm-q3zaHrxROf0P3kYD9cbOWhD5puciWie=w408-h508-k-no",
         countryFlagPhoto: "https://c4.wallpaperflare.com/wallpaper/843/422/452/south-korea-flag-asian-korean-wallpaper-preview.jpg"
       },
       {
         index: 26,
         countryName: "South Korea",
+        countryOriginalName: "대한민국",
         cityName: "JeJu",
+        cityOriginalName: "제주특별자치도",
         countryFlag: "kr",
         countryColor: "#737373",
         isVisited: false,
-        backgroundGradient: "to bottom, rgba(115,115,115,.90), rgba(115,115,115,.90)",
+        backgroundGradient: "to bottom, rgba(181,152,152,.90), rgba(181,152,152,.90)",
         countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipMSQfxOpl2UBicUmMPyFTEzwu0Kdjs5bw57Yy9_=w491-h240-k-no",
         countryFlagPhoto: "https://c4.wallpaperflare.com/wallpaper/843/422/452/south-korea-flag-asian-korean-wallpaper-preview.jpg"
       },
       {
         index: 27,
         countryName: "Hong Kong SAR",
-        cityName: "Hong Kong",
+        countryOriginalName: "香港特別行政區",
+        cityName: "Wan Chai",
+        cityOriginalName: "灣仔",
         countryFlag: "hk",
         countryColor: "#FF3535",
         isVisited: false,
@@ -462,18 +530,22 @@ export default {
       {
         index: 27,
         countryName: "Macau SAR",
-        cityName: "Macau",
+        countryOriginalName: "澳門特別行政區",
+        cityName: "Ruins of St. Paul's",
+        cityOriginalName: "大三巴牌坊",
         countryFlag: "mo",
         countryColor: "",
         isVisited: false,
-        backgroundGradient: "to bottom, rgba(255,53,53,.90), rgba(255,53,53,.90)",
+        backgroundGradient: "to bottom, rgba(0,120,94,.90), rgba(0,120,94,.90)",
         countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipM-06Rc1yusB5CojlzhDz7jnxV5ARHq-PRgQX75=w408-h269-k-no",
         countryFlagPhoto: "https://media.istockphoto.com/id/1421347731/vector/waving-macau-flag-in-beautiful-3d-illustration.jpg?s=612x612&w=0&k=20&c=GPAqskNXPC5qg1LqEGt3aXLMzWByVTcvOPc1NPZMJmA="
       },
       {
         index: 28,
         countryName: "Ireland",
+        countryOriginalName: "Éire",
         cityName: "Cliff of Moher",
+        cityOriginalName: "Aillte an Mhothairr",
         countryFlag: "ie",
         countryColor: "#019A4A",
         isVisited: false,
@@ -484,84 +556,100 @@ export default {
       {
         index: 29,
         countryName: "Malaysia",
+        countryOriginalName: "Malaysia",
         cityName: "Kuala Lumpur",
+        cityOriginalName: "Kuala Lumpur",
         countryFlag: "my",
         countryColor: "",
         isVisited: false,
-        backgroundGradient: "to bottom, rgba(255,53,53,.90), rgba(255,53,53,.90)",
+        backgroundGradient: "to bottom, rgba(235,184,0,.90), rgba(235,184,0,.90)",
         countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipPDSQHvG3jmv9YIOhzzdXGdgC-aXZqC_gtBUckP=w408-h272-k-no",
         countryFlagPhoto: "https://st2.depositphotos.com/3905143/5949/i/450/depositphotos_59497371-stock-photo-malaysia-waving-flag.jpg"
       },
       {
         index: 30,
         countryName: "Malaysia",
+        countryOriginalName: "Malaysia",
         cityName: "George Town",
+        cityOriginalName: "George Town",
         countryFlag: "my",
         countryColor: "",
         isVisited: false,
-        backgroundGradient: "to bottom, rgba(255,53,53,.90), rgba(255,53,53,.90)",
+        backgroundGradient: "to bottom, rgba(235,184,0,.90), rgba(235,184,0,.90)",
         countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipNXfaW4fFD_pLoEZAffbUUtXDAP1XkUSAgXoA20=w506-h240-k-no",
         countryFlagPhoto: "https://st2.depositphotos.com/3905143/5949/i/450/depositphotos_59497371-stock-photo-malaysia-waving-flag.jpg"
       },
       {
         index: 31,
         countryName: "Philippine",
+        countryOriginalName: "Pilipinas",
         cityName: "Manila",
+        cityOriginalName: "Maynila",
         countryFlag: "ph",
         countryColor: "",
         isVisited: false,
-        backgroundGradient: "to bottom, rgba(255,53,53,.90), rgba(255,53,53,.90)",
+        backgroundGradient: "to bottom, rgba(0,56,168,.90), rgba(0,56,168,.90)",
         countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipPzlWJaKAuF72aAHKKkZTHF66O7BbuFA02h2AFQ=w408-h544-k-no",
         countryFlagPhoto: "https://img.freepik.com/free-photo/view-philippine-flag_23-2150319712.jpg"
       },
       {
         index: 32,
         countryName: "Belgium",
+        countryOriginalName: "Belgium",
         cityName: "Brussels",
+        cityOriginalName: "Bruxelles",
         countryFlag: "be",
         countryColor: "#D7B400",
         isVisited: false,
-        backgroundGradient: "to bottom, rgba(255,53,53,.90), rgba(255,53,53,.90)",
+        backgroundGradient: "to bottom, rgba(215,177,2,.90), rgba(215,177,12,.90)",
         countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipOH9BKmdNaIUGedt0r3ivNT-wkGk1nRikHsQqg=w408-h243-k-no",
         countryFlagPhoto: "https://i.pinimg.com/736x/0e/9d/91/0e9d9121df8671469a28322c330d0654.jpg"
       },
       {
         index: 33,
         countryName: "Portugal",
+        countryOriginalName: "Portugal",
         cityName: "Lisbon",
+        cityOriginalName: "Lisbon",
         countryFlag: "pt",
         countryColor: "",
         isVisited: false,
-        backgroundGradient: "to bottom, rgba(255,53,53,.90), rgba(255,53,53,.90)",
+        backgroundGradient: "to bottom, rgba(0,102,0,.90), rgba(0,102,0,.90)",
         countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipNPJSyPRk-i6wRJQ3IJwjCxE2qdbGXCFpkXQ_LR=w408-h305-k-no",
         countryFlagPhoto: "https://i.pinimg.com/1200x/4e/03/d1/4e03d131fac0472c01b387c18d91d8c7.jpg"
       },
       {
         index: 34,
         countryName: "Poland",
+        countryOriginalName: "Polska",
         cityName: "Warsaw",
+        cityOriginalName: "Warszawa",
         countryFlag: "pl",
         countryColor: "",
         isVisited: false,
-        backgroundGradient: "to bottom, rgba(255,53,53,.90), rgba(255,53,53,.90)",
+        backgroundGradient: "to bottom, rgba(220,20,60,.90), rgba(220,20,60,.90)",
         countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipNMm-3_ieTiEzzIy4IC1Eu9ljXY-Ujl-8SHkhWb=w408-h275-k-no",
         countryFlagPhoto: "https://cdn11.bigcommerce.com/s-2lbnjvmw4d/images/stencil/1280x1280/products/4403/5320/polandsleeve__83449.1619532074.jpg?c=2"
       },
       {
         index: 35,
         countryName: "Morocco",
+        countryOriginalName: "المغرب",
         cityName: "Casablanca",
+        cityOriginalName: "الدار البيضاء",
         countryFlag: "ma",
         countryColor: "",
         isVisited: false,
-        backgroundGradient: "to bottom, rgba(255,53,53,.90), rgba(255,53,53,.90)",
+        backgroundGradient: "to bottom, rgba(193,39,45,.90), rgba(193,39,45,.90)",
         countryPhoto: "https://www.vivamorocco.com/wp-content/uploads/2017/11/Casablanca-morocco.jpg",
         countryFlagPhoto: "https://c4.wallpaperflare.com/wallpaper/128/752/1006/flag-marocco-morocco-wallpaper-preview.jpg"
       },
       {
         index: 36,
         countryName: "Italy",
+        countryOriginalName: "Italy",
         cityName: "Venice",
+        cityOriginalName: "Venezia",
         countryFlag: "it",
         countryColor: "#038700",
         isVisited: false,
@@ -572,18 +660,22 @@ export default {
       {
         index: 37,
         countryName: "Hungary",
+        countryOriginalName: "Magyarország",
         cityName: "Budapest",
+        cityOriginalName: "Budapest",
         countryFlag: "hu",
         countryColor: "",
         isVisited: false,
-        backgroundGradient: "to bottom, rgba(255,53,53,.90), rgba(255,53,53,.90)",
+        backgroundGradient: "to bottom, rgba(56,141,0,.90), rgba(56,141,0,.90)",
         countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipP3MmrJdtgWH8GIDsPY_6mjeS8rBHpieDzl3FZe=w408-h303-k-no",
         countryFlagPhoto: "https://t3.ftcdn.net/jpg/00/42/10/00/360_F_42100082_wglCyVDzgDhouPIg1CRHOCizU11Dx5Dk.jpg"
       },
       {
         index: 38,
         countryName: "France",
+        countryOriginalName: "France",
         cityName: "Mont Saint-Michel",
+        cityOriginalName: "Le Mont-Saint-Michel",
         countryFlag: "fr",
         countryColor: "#0236BC",
         isVisited: false,
@@ -594,7 +686,9 @@ export default {
       {
         index: 39,
         countryName: "Iceland",
-        cityName: "Hvannadalshnukur",
+        countryOriginalName: "Ísland",
+        cityName: "Reykjavik",
+        cityOriginalName: "Reykjavík",
         countryFlag: "is",
         countryColor: "#234090",
         isVisited: false,
@@ -631,6 +725,10 @@ export default {
 }
 </script>
 <style>
+* {
+  font-family: Ubuntu;
+}
+
 .flip-card-wrap {
   display: flex;
   width: 100%;
