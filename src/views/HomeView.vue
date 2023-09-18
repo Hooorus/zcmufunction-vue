@@ -58,7 +58,7 @@
                   <!--side front-->
                   <div class="flip-side flip-side-front">
                     <v-card height="425" max-height="425" max-width="300"
-                            v-bind="props" :elevation="isHovering ? 12 : 2">
+                            v-bind="props" :elevation="isHovering ? 12 : 4">
                       <v-img height="425" max-height="425" :src="card.countryPhoto" cover class="text-white"
                              :gradient="card.backgroundGradient">
                         <v-card-item class="d-flex justify-center" style="height: 40%">
@@ -78,7 +78,7 @@
                   <!--side back-->
                   <div class="flip-side flip-side-back">
                     <v-card height="425" max-height="425" max-width="300"
-                            v-bind="props" :elevation="isHovering ? 12 : 2">
+                            v-bind="props" :elevation="isHovering ? 12 : 4">
                       <!--card head-->
                       <v-img height="75" cover>
                         <!--transparent background flag slot-->
@@ -97,7 +97,7 @@
                       </v-img>
                       <v-img height="300" max-height="300" :src="card.countryPhoto" cover class="text-white"></v-img>
                       <v-card-actions>
-                        <v-btn variant="text" :color="card.countryColor" @click="adc = true">
+                        <v-btn variant="text" :color="card.countryColor" @click="pushToDetail(card.index)">
                           Explore
                         </v-btn>
                       </v-card-actions>
@@ -264,7 +264,7 @@ export default {
         countryColor: "#00A5E5",
         isVisited: false,
         backgroundGradient: "154deg, rgba(237, 26, 59, 0.90) 0%, rgba(237, 26, 59, 0.90) 20.83%, rgba(0, 166, 231, 0.90) 80.73%, rgba(0, 166, 231, 0.90) 100%",
-        countryPhoto: "https://static.wixstatic.com/media/167538_977edcbf76574f319032610b56191d89~mv2.png/v1/fill/w_940,h_788,al_c,q_90/167538_977edcbf76574f319032610b56191d89~mv2.png",
+        countryPhoto: "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/03/13/bb.jpg",
         countryFlagPhoto: "https://cdn11.bigcommerce.com/s-2lbnjvmw4d/images/stencil/1280x1280/products/3013/5531/Luxemburg__80447.1647332205.jpg?c=2"
       },
       {
@@ -696,6 +696,19 @@ export default {
         countryPhoto: "https://lh5.googleusercontent.com/p/AF1QipM_mZGBAoWqsbGJ0R9p5GQNGqYXuauzP9vHjAdO=w408-h272-k-no",
         countryFlagPhoto: "https://www.iamreykjavik.com/wp-content/uploads/2018/08/iceland-flag-meaning-history-symbolism-e1535617406754-1280x720.jpg"
       },
+      {
+        index: 40,
+        countryName: "Brazil",
+        countryOriginalName: "Brazil",
+        cityName: "Rio de Janeiro",
+        cityOriginalName: "Rio de Janeiro",
+        countryFlag: "br",
+        countryColor: "#009C3B",
+        isVisited: false,
+        backgroundGradient: "154deg, rgba(0, 156, 59, 0.90) 0%, rgba(0, 156, 59, 0.90) 100%",
+        countryPhoto: "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6f/5f/fa.jpg",
+        countryFlagPhoto: "https://img.freepik.com/premium-vector/realistic-brazil-flag-green-white-background-brazilian-national-flag_650465-214.jpg"
+      },
     ],
     loadCities: true,
     collapseStatus: true,
@@ -704,7 +717,6 @@ export default {
   methods: {
     showCities() {
       this.loadCities = !this.loadCities
-
       this.collapseStatus = !this.collapseStatus
       if (this.collapseStatus) {
         this.collapseIcon = "mdi-chevron-up"
@@ -720,6 +732,9 @@ export default {
     },
     pushToHuping() {
       this.$router.push('/huping')
+    },
+    pushToDetail(detailIndex) {
+      this.$router.push('/' + detailIndex)
     }
   }
 }
@@ -742,6 +757,7 @@ export default {
   height: 100%;
   backface-visibility: hidden;
   transition: all 1s ease;
+  transition-delay: 0.2s;
   transform-style: preserve-3d;
 }
 
@@ -764,8 +780,9 @@ export default {
   box-sizing: border-box;
 }
 
-.flip-card-wrap:active .flip-card {
+.flip-card-wrap:hover .flip-card {
   transform: rotateY(180deg);
+  backface-visibility: visible;
   /*transform-origin: 0%;*/
 }
 </style>

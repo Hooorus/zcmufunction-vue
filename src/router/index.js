@@ -17,6 +17,7 @@ const routes = [
         name: 'huping',
         component: () => import('../views/HupingView.vue')
     },
+
 ]
 
 const router = createRouter({
